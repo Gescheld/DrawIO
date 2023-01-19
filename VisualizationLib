@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T10:50:18.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7x9Ao5DzPOOlUTT85hKO" version="20.8.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-19T11:11:39.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7wGa_jP76F0nGzjWxAKF" version="20.8.5" type="github" pages="8">
   <diagram id="vNwaoQBseeW0Y4_bEiZS" name="Program">
     <mxGraphModel dx="4118" dy="3339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,7 +338,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RRSnfTN2AFXIYwQsUYJC" name="Model-View-Controller">
-    <mxGraphModel dx="2003" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2886" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -438,14 +438,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2JcSs5EnZW4ksp4hOxyQ-30" value="Command" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="1320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="2JcSs5EnZW4ksp4hOxyQ-31" value="AddSkillCommand : Command" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="48" y="1400" width="182" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="2JcSs5EnZW4ksp4hOxyQ-32" value="Wo werden die neuen Commands erstellt?&amp;nbsp;&lt;br&gt;Macht es Sinn --&amp;gt; UI Commands zu machen, dann einen CommandManager, der daraus die Commands erstellt&amp;nbsp;&lt;br&gt;&lt;br&gt;CommandFacotry bekommt CreateAddSkillCommand();&amp;nbsp;&lt;br&gt;&lt;br&gt;ControllSkript kennt Facotry und übermittelt den Commander (beinhaltet CommandQueue) den Command und fügt es CommandQueue hinzu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="1139" width="780" height="100" as="geometry" />
+          <mxGeometry x="-70" y="810" width="780" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2JcSs5EnZW4ksp4hOxyQ-33" value="Namespaces (Model, View, Controller)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="990" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
