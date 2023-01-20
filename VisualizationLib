@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T14:40:27.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vexPHNqslvYDQvJ1po6Z" version="20.8.7" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-01-20T15:50:05.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7v7UNpbMTsVxhu2n0v7e" version="20.8.7" type="github" pages="8">
   <diagram id="vNwaoQBseeW0Y4_bEiZS" name="Program">
     <mxGraphModel dx="936" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,7 +338,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RRSnfTN2AFXIYwQsUYJC" name="Model-View-Presenter">
-    <mxGraphModel dx="2775" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2483" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -657,6 +657,9 @@
         </mxCell>
         <mxCell id="CAUj35xfT11flfOAO-TI-12" value="Command" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="240" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CAUj35xfT11flfOAO-TI-14" value="Wie komme ich an die Info, dass das Model einen neuen Skill hinzugefügt hat?" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#d80073;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1980" width="200" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
