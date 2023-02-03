@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T17:15:38.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="f7RgGzx4uQrwIbNfsKmL" version="20.8.11" type="github" pages="8">
-  <diagram id="vNwaoQBseeW0Y4_bEiZS" name="Program">
-    <mxGraphModel dx="1938" dy="2190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-02-03T16:47:10.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hpom_WungEE5K_9uDKxR" version="20.8.15" type="github" pages="9">
+  <diagram id="vNwaoQBseeW0Y4_bEiZS" name="Model_Program">
+    <mxGraphModel dx="3431" dy="2747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -337,15 +337,297 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="RRSnfTN2AFXIYwQsUYJC" name="Model-View-Presenter">
-    <mxGraphModel dx="3780" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="bEHalfh_vaQFtD4VMvqH" name="Unity_Program">
+    <mxGraphModel dx="3180" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="urwK3O7g20oQ2jSfpyZM-1" value="SkillBaseView&lt;br&gt;Initialisiert + Visualisiert" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-23" value="Button relations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="1805" width="430" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-2" value="State 3 (InstantiateSkillCategories)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1810" width="840" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-1" value="State 1 (InstaitateLoadedProgramSubSkills)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=none;fontColor=#333333;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="1020" width="840" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-12" target="2sME0dsuMVkDy9qAQWR5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-33" value="3. InstatiateSubSkill" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2sME0dsuMVkDy9qAQWR5-32">
+          <mxGeometry x="0.5486" y="1" relative="1" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-12" value="abstract &lt;br&gt;SkillBaseControl&lt;br&gt;&lt;br&gt;(hat GO ActiveSkill as)&lt;br&gt;as.SkillBaseView" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1220" width="197" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-17" target="2sME0dsuMVkDy9qAQWR5-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="549" y="1550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-14" value="1. Holt sich die ApplicationSequence&lt;br&gt;(Als SkillContainer)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2sME0dsuMVkDy9qAQWR5-13">
+          <mxGeometry x="0.3407" y="-1" relative="1" as="geometry">
+            <mxPoint x="-64" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-17" target="2sME0dsuMVkDy9qAQWR5-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="1260" />
+            </Array>
+            <mxPoint x="250" y="1290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-16" value="2.Schickt SkillContainer weiter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2sME0dsuMVkDy9qAQWR5-15">
+          <mxGeometry x="-0.2535" y="-2" relative="1" as="geometry">
+            <mxPoint x="-102" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-17" target="kI99gLAbCUHV8u6KPCgm-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="1770" />
+              <mxPoint x="510" y="1770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-17" value="UnityVSInterface : IObserver" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1410" width="197" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-20" target="2sME0dsuMVkDy9qAQWR5-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-19" value="0. Create Program&amp;nbsp;&lt;br&gt;&amp;amp;&amp;nbsp;&lt;br&gt;Notify Observer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2sME0dsuMVkDy9qAQWR5-18">
+          <mxGeometry x="0.1069" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-20" value="SkillListSubject: ISubject" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1500" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-23" target="2sME0dsuMVkDy9qAQWR5-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="1470" />
+              <mxPoint x="1000" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-23" target="2sME0dsuMVkDy9qAQWR5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-23" value="IObserverISubject" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1290" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-24" value="Prefab&lt;br&gt;SkillBase" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1060" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-25" value="UnityProgram:&amp;nbsp;&lt;br&gt;Erstellt das Unity Program" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1110" width="197" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-26" target="2sME0dsuMVkDy9qAQWR5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-26" value="SkillcontainerControl : SkillBaseControl" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1500" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.422;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-27" target="2sME0dsuMVkDy9qAQWR5-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-27" value="SkillContentControl : SkillcontainerControl&amp;nbsp;" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="1610" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2sME0dsuMVkDy9qAQWR5-28" target="2sME0dsuMVkDy9qAQWR5-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="1410" />
+              <mxPoint x="-40" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-28" value="SkillControl : SkillBaseControl" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1500" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-3" target="kI99gLAbCUHV8u6KPCgm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-12" value="Iteriert über alle Categories und deren Content" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-7">
+          <mxGeometry x="-0.1961" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-3" value="SkillLibraryControl&amp;nbsp;&lt;br&gt;(hängt an GO)" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1860" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-3" target="kI99gLAbCUHV8u6KPCgm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-15" value="Instantiateed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-9">
+          <mxGeometry x="-0.1582" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-5" target="kI99gLAbCUHV8u6KPCgm-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="2145" />
+              <mxPoint x="690" y="2145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-16" value="Instantiated" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-14">
+          <mxGeometry x="-0.3367" y="-3" relative="1" as="geometry">
+            <mxPoint x="44" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-5" value="SkillCategoryControl&lt;br&gt;(hängt an Category Tab)&lt;br&gt;(Öffnet und Schließt die Tabs)" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2080" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-8" target="kI99gLAbCUHV8u6KPCgm-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1920" />
+              <mxPoint x="720" y="2100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-11" value="Hängt an dem GO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-10">
+          <mxGeometry x="-0.0967" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-8" value="Prefab&lt;br&gt;CategoryTab" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1865" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-13" target="kI99gLAbCUHV8u6KPCgm-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="2170" />
+              <mxPoint x="720" y="2298" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-19" value="Hängt an dem GO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-18">
+          <mxGeometry x="-0.0496" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;fontColor=#67AB9F;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-13" target="kI99gLAbCUHV8u6KPCgm-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="950" y="2440" />
+              <mxPoint x="270" y="2440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-30" value="2. AddSkill(skillName)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-28">
+          <mxGeometry x="-0.4059" relative="1" as="geometry">
+            <mxPoint x="-167" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-13" value="Prefab&lt;br&gt;CategoryContent" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2110" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-17" value="CategoryContentControl&lt;br&gt;(hängt an Category Content)&lt;br&gt;(Info und SkillButton Control)" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2258" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-22" value="Bei Klick auf Skill wird ein neuer AddSkillCommand erstellt und zu commandQueue hinzugefügt" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1840" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-20" value="Bei Klick auf Skill wird ein neuer AddSkillCommand erstellt und zu commandQueue hinzugefügt" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#67AB9F;strokeColor=#67AB9F;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-29" target="kI99gLAbCUHV8u6KPCgm-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="187" y="1885" as="sourcePoint" />
+            <mxPoint x="430" y="1855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-26" value="1. OpenSkillLibrary&lt;br&gt;Übergibt sich als GO mit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f8cecc;" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-25">
+          <mxGeometry x="-0.3348" y="-3" relative="1" as="geometry">
+            <mxPoint x="40" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;fontColor=#000000;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-29" target="kI99gLAbCUHV8u6KPCgm-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="2000" />
+              <mxPoint x="70" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-34" value="3a. AddToCommandQueueAndInstantiate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-33">
+          <mxGeometry x="-0.3112" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-31" value="GO / Prefab&amp;nbsp;&lt;br&gt;Skill" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2100" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;fontColor=#000000;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-29" target="kI99gLAbCUHV8u6KPCgm-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="1940" />
+              <mxPoint x="-120" y="1940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-40" value="3b. AddToCommandQueueAndInstantiate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-39">
+          <mxGeometry x="0.3202" y="-1" relative="1" as="geometry">
+            <mxPoint x="36" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="10" y="1865" width="240" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-38" value="" style="group" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-42">
+          <mxGeometry width="177" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-24" value="GO&amp;nbsp;&lt;br&gt;+ Knopf AppContent" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-38">
+          <mxGeometry width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-29" value="SkillContainerControl" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-38">
+          <mxGeometry x="47" y="55" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-41" value="SkillBaseModel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-42">
+          <mxGeometry x="110" y="85" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-44" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-460" y="1875" width="260" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-37" value="" style="group" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-44">
+          <mxGeometry width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-35" value="ReUnDoButtons" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-37">
+          <mxGeometry width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-36" value="CommandManager" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-37">
+          <mxGeometry x="60" y="45" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-43" value="SkillBaseModel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-44">
+          <mxGeometry x="130" y="75" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RRSnfTN2AFXIYwQsUYJC" name="Model-View-Presenter">
+    <mxGraphModel dx="2128" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="urwK3O7g20oQ2jSfpyZM-1" value="SkillBaseView&lt;br&gt;Initialisiert + Visualisiert" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="70" y="1490" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="urwK3O7g20oQ2jSfpyZM-2" value="SkillBaseView&lt;br&gt;Initialisiert + Visualisiert" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="urwK3O7g20oQ2jSfpyZM-2" value="SkillBaseView&lt;br&gt;Initialisiert + Visualisiert" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-20" y="1340" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="yasjVBiWSHkoJJeG5mcZ-2" value="Backend" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
