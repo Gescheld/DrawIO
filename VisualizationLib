@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T16:47:10.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hpom_WungEE5K_9uDKxR" version="20.8.15" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-03T16:49:40.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LUeUDc79GMntsza125Ps" version="20.8.15" type="github" pages="9">
   <diagram id="vNwaoQBseeW0Y4_bEiZS" name="Model_Program">
     <mxGraphModel dx="3431" dy="2747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,7 +338,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bEHalfh_vaQFtD4VMvqH" name="Unity_Program">
-    <mxGraphModel dx="3180" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2474" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -427,9 +427,6 @@
         <mxCell id="2sME0dsuMVkDy9qAQWR5-23" value="IObserverISubject" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="900" y="1290" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2sME0dsuMVkDy9qAQWR5-24" value="Prefab&lt;br&gt;SkillBase" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="1060" width="120" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="2sME0dsuMVkDy9qAQWR5-25" value="UnityProgram:&amp;nbsp;&lt;br&gt;Erstellt das Unity Program" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="470" y="1110" width="197" height="100" as="geometry" />
         </mxCell>
@@ -475,11 +472,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kI99gLAbCUHV8u6KPCgm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-5" target="kI99gLAbCUHV8u6KPCgm-13">
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-48" target="kI99gLAbCUHV8u6KPCgm-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="2145" />
-              <mxPoint x="690" y="2145" />
+              <mxPoint x="1025" y="2145" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -488,24 +484,11 @@
             <mxPoint x="44" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-5" target="kI99gLAbCUHV8u6KPCgm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kI99gLAbCUHV8u6KPCgm-5" value="SkillCategoryControl&lt;br&gt;(hängt an Category Tab)&lt;br&gt;(Öffnet und Schließt die Tabs)" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="430" y="2080" width="170" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="kI99gLAbCUHV8u6KPCgm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-8" target="kI99gLAbCUHV8u6KPCgm-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="1920" />
-              <mxPoint x="720" y="2100" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kI99gLAbCUHV8u6KPCgm-11" value="Hängt an dem GO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-10">
-          <mxGeometry x="-0.0967" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kI99gLAbCUHV8u6KPCgm-8" value="Prefab&lt;br&gt;CategoryTab" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1865" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kI99gLAbCUHV8u6KPCgm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-13" target="kI99gLAbCUHV8u6KPCgm-17">
           <mxGeometry relative="1" as="geometry">
@@ -615,6 +598,27 @@
         </mxCell>
         <mxCell id="kI99gLAbCUHV8u6KPCgm-43" value="SkillBaseModel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-44">
           <mxGeometry x="130" y="75" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-47" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-270" y="1060" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2sME0dsuMVkDy9qAQWR5-24" value="Prefab&lt;br&gt;SkillBase" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-47">
+          <mxGeometry width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-46" value="SkillContainerControl" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-47">
+          <mxGeometry x="70" y="50" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-45" value="SkillBaseModel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-47">
+          <mxGeometry x="100" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-51" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="890" y="1865" width="195" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-8" value="Prefab&lt;br&gt;CategoryTab" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-51">
+          <mxGeometry width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-48" value="SkillCategoryControl" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-51">
+          <mxGeometry x="65" y="55" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
