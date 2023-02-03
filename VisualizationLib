@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T16:49:40.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LUeUDc79GMntsza125Ps" version="20.8.15" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-03T16:51:03.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oBS5SrGrkbzZtCm_emNM" version="20.8.15" type="github" pages="9">
   <diagram id="vNwaoQBseeW0Y4_bEiZS" name="Model_Program">
     <mxGraphModel dx="3431" dy="2747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,7 +338,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bEHalfh_vaQFtD4VMvqH" name="Unity_Program">
-    <mxGraphModel dx="2474" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2474" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -475,7 +475,8 @@
         <mxCell id="kI99gLAbCUHV8u6KPCgm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-48" target="kI99gLAbCUHV8u6KPCgm-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1025" y="2145" />
+              <mxPoint x="990" y="2050" />
+              <mxPoint x="990" y="2050" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -488,27 +489,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kI99gLAbCUHV8u6KPCgm-5" value="SkillCategoryControl&lt;br&gt;(hängt an Category Tab)&lt;br&gt;(Öffnet und Schließt die Tabs)" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="430" y="2080" width="170" height="80" as="geometry" />
+          <mxGeometry x="430" y="2060" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kI99gLAbCUHV8u6KPCgm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-13" target="kI99gLAbCUHV8u6KPCgm-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="2170" />
-              <mxPoint x="720" y="2298" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kI99gLAbCUHV8u6KPCgm-19" value="Hängt an dem GO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-18">
-          <mxGeometry x="-0.0496" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kI99gLAbCUHV8u6KPCgm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;fontColor=#67AB9F;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-13" target="kI99gLAbCUHV8u6KPCgm-29">
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;fontColor=#67AB9F;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-52" target="kI99gLAbCUHV8u6KPCgm-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="1920" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="950" y="2440" />
-              <mxPoint x="270" y="2440" />
+              <mxPoint x="1020" y="2440" />
+              <mxPoint x="110" y="2440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -516,9 +504,6 @@
           <mxGeometry x="-0.4059" relative="1" as="geometry">
             <mxPoint x="-167" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="kI99gLAbCUHV8u6KPCgm-13" value="Prefab&lt;br&gt;CategoryContent" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="890" y="2110" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kI99gLAbCUHV8u6KPCgm-17" value="CategoryContentControl&lt;br&gt;(hängt an Category Content)&lt;br&gt;(Info und SkillButton Control)" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="430" y="2258" width="170" height="80" as="geometry" />
@@ -548,13 +533,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kI99gLAbCUHV8u6KPCgm-34" value="3a. AddToCommandQueueAndInstantiate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-33">
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-34" value="3a. &lt;br&gt;AddToCommandQueueAndInstantiate" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="kI99gLAbCUHV8u6KPCgm-33">
           <mxGeometry x="-0.3112" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kI99gLAbCUHV8u6KPCgm-31" value="GO / Prefab&amp;nbsp;&lt;br&gt;Skill" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="10" y="2100" width="120" height="70" as="geometry" />
+          <mxGeometry x="-20" y="2100" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kI99gLAbCUHV8u6KPCgm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#67AB9F;fontColor=#000000;" edge="1" parent="1" source="kI99gLAbCUHV8u6KPCgm-29" target="kI99gLAbCUHV8u6KPCgm-36">
           <mxGeometry relative="1" as="geometry">
@@ -619,6 +604,15 @@
         </mxCell>
         <mxCell id="kI99gLAbCUHV8u6KPCgm-48" value="SkillCategoryControl" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-51">
           <mxGeometry x="65" y="55" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-53" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="890" y="2110" width="195" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-13" value="Prefab&lt;br&gt;CategoryContent" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-53">
+          <mxGeometry width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kI99gLAbCUHV8u6KPCgm-52" value="CategoryContentControl" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="kI99gLAbCUHV8u6KPCgm-53">
+          <mxGeometry x="65" y="60" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
